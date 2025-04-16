@@ -5,7 +5,7 @@
 	require '../vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
-	
+	 
 	$login = $_POST['login'];
 	$password = $_POST['password'];
 	

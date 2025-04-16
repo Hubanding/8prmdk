@@ -20,7 +20,7 @@
 				<a href="index.php">
 					<div class="subname">Электронная приемная комиссия</div>
 					Пермского авиационного техникума им. А. Д. Швецова
-				</a>
+				</a> 
 			</div>
 		</div>
 		<div class="space"> </div>

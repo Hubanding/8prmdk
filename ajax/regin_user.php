@@ -7,7 +7,7 @@
 	
 	$login = $_POST['login'];
 	$password = $_POST['password'];
-
+ 
 	if (
 		strlen($password) <= 8 ||
 		!preg_match('/[a-zA-Z]/', $password) ||
