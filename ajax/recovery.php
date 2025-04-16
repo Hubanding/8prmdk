@@ -9,7 +9,7 @@
 	
 	// ищем пользователя
 	$query_user = $mysqli->query("SELECT * FROM `users` WHERE `login`='".$login."';");
-	
+	 
 	$id = -1;
 	if($user_read = $query_user->fetch_row()) {
 		// создаём новый пароль

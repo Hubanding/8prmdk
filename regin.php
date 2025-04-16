@@ -10,7 +10,7 @@
 				else if($user_read[3] == 1) header("Location: admin.php");
 			}
 		}
- 	}
+ 	} 
 ?>
 <!DOCTYPE html>
 <html lang="ru">

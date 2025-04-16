@@ -14,7 +14,7 @@ spl_autoload_register(function ($class) {
     }
 
     /* All of the classes have names like "ReCaptcha\Foo", so we need
-     * to replace the backslashes with frontslashes if we want the
+     * to replace the backslashes with front slashes if we want the
      * name to map directly to a location in the filesystem.
      */
     $class = str_replace('\\', '/', $class);

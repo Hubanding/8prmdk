@@ -16,7 +16,7 @@
 				$stmt->bind_param("is", $user_id, $session_token);
 				$stmt->execute();
 				$stmt->close();
-				
+				 
 				// Удаляем временные переменные
 				unset($_SESSION['pending_user']);
 				unset($_SESSION['auth_code']);
